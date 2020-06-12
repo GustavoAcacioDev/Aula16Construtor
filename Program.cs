@@ -27,6 +27,7 @@ namespace Aula16Construtor
 
             System.Console.WriteLine("--------------------------------------------");
 
+            //Instancia com 4 argumentos
             PetShop cachorrinho = new PetShop("Doberman", "Halley", "Tosa", 8);
             System.Console.WriteLine("Raça: "+cachorrinho.Raca);
             System.Console.WriteLine("Nome: "+cachorrinho.Nome);
